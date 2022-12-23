@@ -59,16 +59,19 @@ div#main .bottomright {
   background: green;
 }
 
+/* hover transition */
 div#main:hover .topleft {
   transform: rotate(90deg);
   transform-origin: top left;
   transition-duration: 1s;
 }
+
 div#main:hover .topright {
   transform: rotate(-90deg);
   transform-origin: top right;
   transition-duration: 1s;
 }
+
 div#main:hover .bottomleft {
   transform: rotate(-90deg);
   transform-origin: bottom left;
@@ -78,5 +81,30 @@ div#main:hover .bottomleft {
 div#main:hover .bottomright {
   transform: rotate(90deg);
   transform-origin: bottom right;
+  transition-duration: 1s;
+}
+
+/* reverse transition */
+div#main .topleft {
+  transform: rotate(0deg);
+  transform-origin: bottom right;
+  transition-duration: 1s;
+}
+
+div#main .topright {
+  transform: rotate(0deg);
+  transform-origin: bottom left;
+  transition-duration: 1s;
+}
+
+div#main .bottomleft {
+  transform: rotate(0deg);
+  transform-origin: top right;
+  transition-duration: 1s;
+}
+
+div#main .bottomright {
+  transform: rotate(0deg);
+  transform-origin: top left;
   transition-duration: 1s;
 }
