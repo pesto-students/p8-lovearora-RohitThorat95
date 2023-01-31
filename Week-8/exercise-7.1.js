@@ -62,15 +62,17 @@ class LinkedList {
   }
 }
 
-const myLinkedList = new LinkedList();
-myLinkedList.append(10);
-myLinkedList.append(20);
-myLinkedList.append(30);
-myLinkedList.append(40);
-myLinkedList.append(50);
-myLinkedList.append(60);
-console.log("Before Reverse");
-myLinkedList.print();
-myLinkedList.reverse();
-console.log("After Reverse");
-myLinkedList.print();
+// const myLinkedList = new LinkedList();
+// myLinkedList.append(10);
+// myLinkedList.append(20);
+// myLinkedList.append(30);
+// myLinkedList.append(40);
+// myLinkedList.append(50);
+// myLinkedList.append(60);
+// console.log("Before Reverse");
+// myLinkedList.print();
+// myLinkedList.reverse();
+// console.log("After Reverse");
+// myLinkedList.print();
+
+module.exports = LinkedList;
