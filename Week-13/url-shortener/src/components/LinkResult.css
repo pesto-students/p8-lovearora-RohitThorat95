@@ -1,0 +1,33 @@
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  color: grey;
+}
+
+.result p {
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.result button {
+  padding: 0.5rem 1rem;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.result button.copied {
+  background-color: white;
+  color: cornflowerblue;
+}
+
+.noData {
+  color: cornflowerblue;
+  font-size: 1rem;
+}
