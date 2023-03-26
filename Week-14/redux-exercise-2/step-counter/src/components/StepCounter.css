@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group button {
+  width: 50%;
+  padding: 20px;
+  margin: 5px;
+}
+
+.btn-1 {
+  background-color: rgb(102, 55, 151);
+  color: white;
+  border: none;
+}
+
+.btn-2 {
+  background-color: rgb(222, 222, 222);
+  color: black;
+  border: none;
+}
